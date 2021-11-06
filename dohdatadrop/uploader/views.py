@@ -7,6 +7,7 @@ from rest_framework.decorators import api_view
 from .models import TotalCasesByAge, CovidData, ListCasesByAge, UploaderModel
 from .serializers import CaseSerializer, TotalCasesByAgeSerializer, ListCasesByAgeSerializer
 from rest_framework.response import Response
+import datetime
 
 # Create your views here.
 @login_required
@@ -78,6 +79,11 @@ def audit(request):
 def total_cases_by_age(request, year, month, day, age):
     if request.method == 'GET':
         t = TotalCasesByAge()
+        try:
+            datetime.datetime(int(year), int(month), int(day))
+        except ValueError:
+            return Response(r'{"detail": "Invalid Date Format."}')
+
         t.date = f'{year}/{month}/{day}'
 
         t.age = age
@@ -94,6 +100,11 @@ def list_cases_by_age(request, year, month, day, age):
     if request.method == 'GET':
         lists = []
 
+        try:
+            datetime.datetime(int(year), int(month), int(day))
+        except ValueError:
+            return Response(r'{"detail": "Invalid Date Format."}')
+            
         cc = CovidData.objects.filter(date_recovered=f'{year}-{month}-{day}').filter(age=age)
 
         for c in cc:

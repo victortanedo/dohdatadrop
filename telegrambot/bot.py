@@ -26,6 +26,10 @@ def parse_message_data(text):
 
         data = r.json()
 
+        if 'detail' in data:
+            text = f'Case {tokens[1]} not found'
+            return text
+
         text = f"Case Code: {data['case_code']}\n\
 Age: {data['age']}\n\
 Age Group: {data['age_group']}\n\
@@ -60,6 +64,10 @@ Validation Status: {data['validation_status']}\n\
 
         data = r.json()
 
+        if 'detail' in data:
+            text = f'Invalid date {tokens[1]} detected'
+            return text
+
         text = f"Date: {data['date']}\n\
 Age: {data['age']}\n\
 Recovered Count: {data['recovered_count']}\n\
@@ -75,6 +83,10 @@ On-Going: {data['on_going']}"
         r = requests.get(url)
 
         data = r.json()
+
+        if 'detail' in data:
+            text = f'Invalid date {tokens[1]} detected'
+            return text
 
         text = ''
         for d in data:
