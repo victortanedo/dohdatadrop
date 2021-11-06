@@ -1,2 +1,4 @@
 .vscode/
 env/
+dohdatadrop/uploader/migrations/
+dohdatadrop/uploader/__pycache__/
