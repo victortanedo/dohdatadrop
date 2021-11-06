@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block title %}Audit Page{% endblock %}
+{% block content %}
+<h1>Audit View</h1>
+<p>
+    <a href="{% url 'uploader_view' %}">Upload a New File</a> | 
+    <a href="{% url 'logout' %}">Log Out</a>
+</p>
+<table border=1>
+    <tr>
+        <th width=100>Username</th>
+        <th width=150>File Name</th>
+        <th width=150>File Size</th>
+        <th width=100>Row Count</th>
+    </tr>
+    {% for upload in uploads %}
+    <tr>
+        <td>{{ upload.user.username }}</td>
+        <td>{{ upload.file_upload }}</td>
+        <td>{{ upload.file_size }} BYTES</td>
+        <td>{{ upload.row_count }}</td>
+    </tr>    
+    {% empty %}
+        <p>There are no entries yet, why not upload one from the link above</p>
+    {% endfor %}
+</table>
+{% endblock %}
