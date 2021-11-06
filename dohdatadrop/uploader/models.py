@@ -1,6 +1,7 @@
 from django.db import models
 from django.conf import settings
 from django.core.exceptions import ValidationError
+from django.core.validators import FileExtensionValidator
 
 def validate_file_extension(value):
     if not value.name.endswith('.csv'):
@@ -10,7 +11,7 @@ def validate_file_extension(value):
 class UploaderModel(models.Model):
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     row_count = models.IntegerField(null=True)
-    file_upload = models.FileField(upload_to='data/', validators=[validate_file_extension])
+    file_upload = models.FileField(upload_to='data/', validators=[FileExtensionValidator(allowed_extensions=['csv'])])
     file_size = models.TextField(max_length=50)
 
 class CovidData(models.Model):

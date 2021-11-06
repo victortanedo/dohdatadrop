@@ -90,3 +90,13 @@ td {
     padding: 8px;
     text-align: center;
 }
+
+/* messages */
+.messages {
+    padding:0;
+    list-style-type:none;
+    background:#81ce81;
+    color:white;
+}
+
+

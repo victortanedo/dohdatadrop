@@ -2,6 +2,9 @@
 
 {% block title %}Audit Page{% endblock %}
 {% block content %}
+{% for message in messages %}
+    <p class="messages"><em>{{ message.level_tag|title }}: </em> {{ message }}</p>
+{% endfor %}
 <h1>Audit View</h1>
 <p>
     <a href="{% url 'uploader_view' %}">Upload a New File</a> | 

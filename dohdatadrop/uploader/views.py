@@ -1,4 +1,4 @@
-from django.shortcuts import get_object_or_404, render
+from django.shortcuts import get_object_or_404, render, redirect
 from .forms import UploaderForm, UserRegistrationForm
 from django.contrib.auth.decorators import login_required
 import pandas as pd
@@ -8,11 +8,38 @@ from .models import TotalCasesByAge, CovidData, ListCasesByAge, UploaderModel
 from .serializers import CaseSerializer, TotalCasesByAgeSerializer, ListCasesByAgeSerializer
 from rest_framework.response import Response
 import datetime
+from django.contrib import messages
 
 # Create your views here.
 @login_required
 def uploader_view(request):
-    form = UploaderForm()
+    if request.method == 'POST':
+        form = UploaderForm(request.POST, request.FILES)
+
+        if form.is_valid():
+            file = form.cleaned_data.get('file_upload')
+            
+            file.seek(0, 2)    
+
+            instance = form.save(commit=False)
+            instance.user = request.user
+            instance.file_size = file.tell()
+
+            instance.save()
+
+            df = pd.read_csv(instance.file_upload)
+            instance.row_count = len(df)            
+          
+            parse_covid_data(df)
+            instance.save()
+            file.close()
+            
+            messages.success(request, f'DOH Data Drop was successfully updated!')
+            return redirect('audit')
+        else:
+            form = UploaderForm(request.POST, request.FILES)
+    else:
+        form = UploaderForm()
 
     context = {
         'form': form,
@@ -49,27 +76,7 @@ def register(request):
 def audit(request):
     uploads = UploaderModel.objects.all()
 
-    if request.method == 'POST':
-        form = UploaderForm(request.POST, request.FILES)
-
-        if form.is_valid():
-            file = form.cleaned_data.get('file_upload')
-            
-            file.seek(0, 2)    
-
-            instance = form.save(commit=False)
-            instance.user = request.user
-            instance.file_size = file.tell()
-
-            instance.save()
-
-            df = pd.read_csv(instance.file_upload)
-            instance.row_count = len(df)            
-          
-            parse_covid_data(df)
-            instance.save()
-            file.close()
-            
+    
     context = {
         'uploads': uploads,
     }
@@ -104,7 +111,7 @@ def list_cases_by_age(request, year, month, day, age):
             datetime.datetime(int(year), int(month), int(day))
         except ValueError:
             return Response(r'{"detail": "Invalid Date Format."}')
-            
+
         cc = CovidData.objects.filter(date_recovered=f'{year}-{month}-{day}').filter(age=age)
 
         for c in cc:
