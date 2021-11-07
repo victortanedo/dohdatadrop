@@ -83,6 +83,7 @@ In order to use the Telegram Bot with our server running on the localhost, we wi
     You should see something similar to the screenshot below:
 
     ![ngorok screenshot](https://drive.google.com/uc?export=view&id=1meOTefsjm3ayMXLpnTdu6Lm4w-KflL7Z)
+    **NOTE:** If the image does not display, just refresh the page or access it from [here](https://drive.google.com/file/d/1meOTefsjm3ayMXLpnTdu6Lm4w-KflL7Z/view?usp=sharing).
 
     As mentioned, this will allow us to forward http requests through the localhost. You can see the sample forwarding address in the screenshot above.
     As stated earlier, this will allow us to forward http requests via localhost
