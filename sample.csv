@@ -1,0 +1,187 @@
+CaseCode,Age,AgeGroup,Sex,DateSpecimen,DateResultRelease,DateRepConf,DateDied,DateRecover,RemovalType,Admitted,RegionRes,ProvRes,CityMunRes,CityMuniPSGC,BarangayRes,BarangayPSGC,HealthStatus,Quarantined,DateOnset,Pregnanttab,ValidationStatus
+C667836,23.0,20 to 24,MALE,2020-07-03,2020-07-01,2020-07-06,,,RECOVERED,,NCR,,,,,,RECOVERED,,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Date Specimen Collected is after Date Specimen Received
+Health Status is ""Recovered"", but no Date Recovered is recorded
+Date Specimen Collected is after Result Date"
+C348461,33.0,30 to 34,FEMALE,2020-07-29,2020-07-31,2020-08-04,,,RECOVERED,,NCR,,,,,,RECOVERED,NO,,NO,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C739253,45.0,45 to 49,MALE,2020-07-23,2020-07-28,2020-08-02,,,RECOVERED,,NCR,,,,,,RECOVERED,NO,,,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C310918,39.0,35 to 39,MALE,,,2020-11-18,,,RECOVERED,,NCR,NCR,CITY OF MARIKINA,PH137402000,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C334596,41.0,40 to 44,MALE,2020-05-20,,2020-05-26,,,RECOVERED,,,,,,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Case has Lab Result, but Result Date is blank
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C771452,25.0,25 to 29,FEMALE,,,2020-08-12,,,RECOVERED,,NCR,NCR,CITY OF SAN JUAN,PH137405000,,,RECOVERED,NO,,NO,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C363265,23.0,20 to 24,FEMALE,2020-07-09,,2020-08-26,,2020-08-06,RECOVERED,,NCR,NCR,CITY OF MANILA,PH133906000,,,RECOVERED,NO,,NO,
+C593135,19.0,15 to 19,MALE,2020-08-10,2020-08-11,2020-08-14,,2020-08-24,RECOVERED,,NCR,NCR,CALOOCAN CITY,PH137501000,,,RECOVERED,NO,,,Age or Birthdate is Invalid
+C134541,47.0,45 to 49,MALE,2020-06-09,2020-06-11,2020-06-13,,,RECOVERED,,NCR,,,,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded
+Age or Birthdate is Invalid"
+C201764,38.0,35 to 39,MALE,2020-06-04,2020-06-06,2020-06-09,,,RECOVERED,,Region VI: Western Visayas,,,,,,RECOVERED,NO,,,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C626113,66.0,65 to 69,FEMALE,2020-08-04,2020-08-06,2020-08-08,,2020-08-19,RECOVERED,YES,Region IV-A: CALABARZON,CAVITE,,,,,RECOVERED,NO,,NO,
+C948752,82.0,80+,MALE,2020-07-28,2020-07-31,2020-08-07,2020-07-28,,DIED,,Region IV-A: CALABARZON,LAGUNA,CITY OF SANTA ROSA,PH043428000,,,DIED,NO,2020-07-21,,
+C621472,76.0,75 to 79,FEMALE,2020-07-21,2020-07-25,2020-07-30,,,RECOVERED,,Region IV-A: CALABARZON,CAVITE,IMUS CITY,PH042109000,,,RECOVERED,NO,,NO,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C820228,31.0,30 to 34,FEMALE,2020-05-11,2020-06-11,2020-10-31,,,RECOVERED,,NCR,NCR,CITY OF MARIKINA,PH137402000,,,RECOVERED,NO,,NO,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C421667,34.0,30 to 34,MALE,,,2020-08-09,,,RECOVERED,,ROF,,,,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C943123,29.0,25 to 29,MALE,2020-08-06,2020-08-09,2020-08-13,,,RECOVERED,,NCR,NCR,CITY OF MAKATI,PH137602000,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C345882,54.0,50 to 54,MALE,,,2020-07-20,,,RECOVERED,,NCR,NCR,,,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Case has Lab Result, but Result Date is blank
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C698946,34.0,30 to 34,MALE,2020-04-25,2020-04-30,2020-05-01,,2020-06-08,RECOVERED,,NCR,NCR,CITY OF LAS PIÑAS,PH137601000,,,RECOVERED,NO,,,
+C997190,37.0,35 to 39,FEMALE,,,2020-12-13,,,RECOVERED,,ROF,,,,,,RECOVERED,NO,,NO,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C751880,32.0,30 to 34,MALE,2020-07-14,2020-07-18,2020-07-28,,,RECOVERED,,,,,,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded
+Date Specimen Collected is after Date Specimen Received"
+C470363,39.0,35 to 39,MALE,2020-06-06,2020-06-09,2020-06-11,,,RECOVERED,,NCR,,,,,,RECOVERED,NO,,,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C502902,50.0,50 to 54,FEMALE,2020-04-27,2020-04-29,2020-05-01,,2020-06-05,RECOVERED,YES,NCR,,,,,,RECOVERED,YES,2020-04-11,NO,
+C721573,43.0,40 to 44,FEMALE,,,2020-08-01,,2020-08-04,RECOVERED,,ROF,,,,,,RECOVERED,NO,,NO,
+C849430,54.0,50 to 54,FEMALE,2020-05-27,,2020-05-31,,,RECOVERED,,NCR,,,,,,RECOVERED,NO,,NO,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C846223,26.0,25 to 29,MALE,2020-08-17,2020-08-19,2020-08-21,,,RECOVERED,,NCR,NCR,CITY OF MANILA,PH133906000,,,RECOVERED,NO,,,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C814871,5.0,5 to 9,FEMALE,2020-08-13,2020-08-17,2020-08-20,,,RECOVERED,,NCR,NCR,QUEZON CITY,PH137404000,,,RECOVERED,NO,,NO,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C232593,32.0,30 to 34,FEMALE,2020-08-11,2020-08-15,2020-08-21,,,RECOVERED,,ROF,,,,,,RECOVERED,NO,,NO,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C472282,28.0,25 to 29,MALE,2020-07-16,2020-07-20,2020-08-04,,,RECOVERED,,NCR,NCR,QUEZON CITY,PH137404000,,,RECOVERED,NO,2020-07-16,,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C165983,35.0,35 to 39,FEMALE,2020-10-24,2020-10-26,2020-10-28,,2020-11-11,RECOVERED,,Region VI: Western Visayas,ILOILO,BAROTAC VIEJO,PH063008000,,,RECOVERED,NO,2020-10-24,NO,
+C508071,37.0,35 to 39,MALE,2020-07-01,2020-07-04,2020-07-06,,2020-07-23,RECOVERED,YES,ROF,,,,,,RECOVERED,NO,2020-06-30,,
+C563569,11.0,10 to 14,FEMALE,2020-12-10,2020-12-12,2020-12-13,,2020-12-20,RECOVERED,NO,CAR,BENGUET,BAGUIO CITY,PH141102000,,,RECOVERED,NO,2020-12-06,NO,
+C365879,45.0,45 to 49,FEMALE,2020-07-11,2020-07-13,2020-07-17,,,RECOVERED,,NCR,NCR,,,,,RECOVERED,NO,,NO,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C666972,24.0,20 to 24,MALE,2020-07-25,2020-07-27,2020-08-02,,,RECOVERED,,NCR,,,,,,RECOVERED,NO,,,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C475530,29.0,25 to 29,MALE,2020-06-29,,2020-07-05,,,RECOVERED,,NCR,,,,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Case has Lab Result, but Result Date is blank
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C210160,33.0,30 to 34,MALE,,,2020-09-04,,2020-09-22,RECOVERED,,NCR,NCR,CITY OF PARAÑAQUE,PH137604000,,,RECOVERED,NO,,,
+C171000,70.0,70 to 74,FEMALE,,,2020-07-20,,2020-07-31,RECOVERED,,NCR,NCR,,,,,RECOVERED,NO,,NO,
+C465984,49.0,45 to 49,FEMALE,2020-07-04,2020-07-06,2020-07-09,,,RECOVERED,,NCR,,,,,,RECOVERED,NO,,NO,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C267094,26.0,25 to 29,MALE,2020-07-24,2020-07-30,2020-08-02,,,RECOVERED,,NCR,NCR,CITY OF MANILA,PH133901000,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C994900,62.0,60 to 64,MALE,,,2020-08-28,,2020-09-05,RECOVERED,,Region VII: Central Visayas,CEBU,MANDAUE CITY,PH072230000,,,RECOVERED,NO,,,
+C147689,43.0,40 to 44,MALE,,,2020-12-31,,,RECOVERED,,Region XI: Davao Region,DAVAO DEL SUR,DAVAO CITY,PH112402000,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C884966,50.0,50 to 54,MALE,,,2020-08-04,,,RECOVERED,,Region IV-B: MIMAROPA,MARINDUQUE,TORRIJOS,PH174006000,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C436706,42.0,40 to 44,MALE,2020-08-11,2020-08-13,2020-08-15,,,RECOVERED,,NCR,NCR,CITY OF MAKATI,PH137602000,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C542693,16.0,15 to 19,MALE,,2020-07-17,2020-08-08,,,RECOVERED,,NCR,NCR,CITY OF MALABON,PH137502000,,,RECOVERED,NO,2020-07-05,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Age or Birthdate is Invalid
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C313234,19.0,15 to 19,MALE,2020-07-01,2020-07-05,2020-07-08,,,RECOVERED,,NCR,,,,,,RECOVERED,NO,,,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C199841,22.0,20 to 24,MALE,,,2020-08-20,,,RECOVERED,,NCR,NCR,CITY OF MANILA,PH133910000,,,RECOVERED,NO,,,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C606345,44.0,40 to 44,MALE,2020-08-06,2020-08-09,2020-08-13,,,RECOVERED,,NCR,NCR,CITY OF MANDALUYONG,PH137401000,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C819973,23.0,20 to 24,MALE,2020-08-20,2020-08-21,2020-08-24,,,RECOVERED,,NCR,NCR,CITY OF MUNTINLUPA,PH137603000,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C733196,62.0,60 to 64,MALE,2020-08-06,2020-08-09,2020-08-13,,,RECOVERED,,NCR,NCR,CITY OF MANDALUYONG,PH137401000,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C328872,67.0,65 to 69,MALE,2020-07-30,2020-07-30,2020-08-04,,,,,NCR,NCR,CITY OF MANILA,PH133906000,,,CRITICAL,NO,2020-07-26,,
+C172002,67.0,65 to 69,MALE,2020-07-30,2020-08-01,2020-08-05,,,RECOVERED,,NCR,,,,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C297611,24.0,20 to 24,MALE,2020-07-13,2020-07-15,2020-07-18,,,RECOVERED,,NCR,,,,,,RECOVERED,NO,2020-07-13,,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C816169,30.0,30 to 34,MALE,,,2020-08-20,,,RECOVERED,,ROF,,,,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C821603,24.0,20 to 24,FEMALE,2020-08-08,2020-08-10,2020-08-13,,,RECOVERED,,Region IV-A: CALABARZON,CAVITE,CITY OF DASMARIÑAS,PH042106000,,,RECOVERED,NO,,NO,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C665395,27.0,25 to 29,MALE,2020-07-03,2020-07-05,2020-07-07,,,RECOVERED,YES,NCR,NCR,,,,,RECOVERED,NO,2020-07-01,,"Case has Admitting Facility but is not Admitted (or vice versa)
+Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C628837,28.0,25 to 29,MALE,2020-07-16,2020-07-25,2020-08-01,,,RECOVERED,,ROF,,,,,,RECOVERED,NO,,,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C370932,22.0,20 to 24,FEMALE,,,2020-08-04,,,RECOVERED,,Region IV-A: CALABARZON,CAVITE,CITY OF DASMARIÑAS,PH042106000,,,RECOVERED,NO,,NO,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C982056,61.0,60 to 64,FEMALE,,,2020-09-12,,,RECOVERED,,Region IV-A: CALABARZON,,,,,,RECOVERED,NO,,NO,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C947441,46.0,45 to 49,MALE,,2020-07-18,2020-07-26,,2020-08-12,RECOVERED,,NCR,NCR,,,,,RECOVERED,NO,,,
+C618384,25.0,25 to 29,FEMALE,,,2020-08-04,,,RECOVERED,,NCR,NCR,CITY OF PARAÑAQUE,PH137604000,,,RECOVERED,NO,,NO,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C211084,46.0,45 to 49,FEMALE,2020-08-11,2020-08-14,2020-08-17,,,RECOVERED,,Region IV-A: CALABARZON,LAGUNA,CITY OF BIÑAN,PH043403000,,,RECOVERED,NO,,NO,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C524906,,,FEMALE,2020-07-06,2020-07-09,2020-08-05,,,RECOVERED,,NCR,NCR,CITY OF MANILA,PH133900000,,,RECOVERED,NO,,NO,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C164978,30.0,30 to 34,FEMALE,2020-07-12,2020-07-14,2020-07-17,,,RECOVERED,,Region IV-A: CALABARZON,CAVITE,,,,,RECOVERED,NO,2020-07-09,NO,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C572139,31.0,30 to 34,FEMALE,,,2020-07-24,,,RECOVERED,,NCR,NCR,,,,,RECOVERED,NO,,NO,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded
+Age or Birthdate is Invalid"
+C522547,35.0,35 to 39,MALE,2020-08-06,2020-08-09,2020-08-12,,,RECOVERED,,NCR,NCR,CITY OF MANILA,PH133901000,,,RECOVERED,NO,,,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C790235,38.0,35 to 39,FEMALE,2020-08-06,2020-08-07,2020-08-10,,,RECOVERED,,NCR,NCR,QUEZON CITY,PH137404000,,,RECOVERED,NO,,NO,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C420166,35.0,35 to 39,FEMALE,2020-07-20,2020-07-24,2020-07-29,,,RECOVERED,,NCR,,,,,,RECOVERED,NO,,NO,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C370649,34.0,30 to 34,MALE,2020-08-17,2020-08-18,2020-08-22,,,RECOVERED,,Region III: Central Luzon,ZAMBALES,PALAUIG,PH037108000,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C422570,70.0,70 to 74,MALE,2020-06-30,2020-07-01,2020-07-05,,,RECOVERED,,NCR,NCR,CALOOCAN CITY,PH137501000,,,RECOVERED,NO,,,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C599744,33.0,30 to 34,MALE,,,2020-10-30,,2020-11-08,RECOVERED,,ROF,,,,,,RECOVERED,NO,,,
+C505813,35.0,35 to 39,MALE,2020-07-21,2020-07-23,2020-07-27,,,RECOVERED,,NCR,,,,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C633220,53.0,50 to 54,MALE,2020-05-20,2020-05-22,2020-05-25,,2020-06-24,RECOVERED,,NCR,NCR,CITY OF NAVOTAS,PH137503000,,,RECOVERED,NO,,,Age or Birthdate is Invalid
+C502906,37.0,35 to 39,FEMALE,2020-06-26,2020-06-30,2020-07-08,,,RECOVERED,,NCR,NCR,CITY OF MANILA,PH133901000,,,RECOVERED,NO,,NO,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C272474,23.0,20 to 24,MALE,2020-07-26,2020-07-28,2020-08-03,,,RECOVERED,,NCR,NCR,PASAY CITY,PH137605000,,,RECOVERED,NO,2020-07-22,,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C306463,10.0,10 to 14,FEMALE,2020-08-17,2020-08-25,2020-08-31,,,RECOVERED,,NCR,NCR,CITY OF LAS PIÑAS,PH137601000,,,RECOVERED,NO,,NO,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C544038,20.0,20 to 24,MALE,,,2020-08-26,,,RECOVERED,,NCR,NCR,PASAY CITY,PH137605000,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C627035,40.0,40 to 44,FEMALE,2020-08-08,2020-08-11,2020-08-14,,,RECOVERED,,NCR,NCR,CITY OF MARIKINA,PH137402000,,,RECOVERED,NO,,NO,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C311930,29.0,25 to 29,FEMALE,2020-07-15,2020-07-18,2020-07-21,,2020-08-05,RECOVERED,,NCR,NCR,,,,,RECOVERED,NO,,NO,
+C838971,76.0,75 to 79,MALE,2020-07-20,2020-07-22,2020-07-27,,,,,Region IV-A: CALABARZON,LAGUNA,CITY OF CALAMBA,PH043405000,,,CRITICAL,NO,2020-05-07,,
+C658584,22.0,20 to 24,MALE,2020-07-01,2020-07-03,2020-07-07,,,RECOVERED,,NCR,,,,,,RECOVERED,NO,,,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C880468,26.0,25 to 29,FEMALE,,,2020-11-01,,,RECOVERED,,NCR,NCR,CITY OF PARAÑAQUE,PH137604000,,,RECOVERED,NO,,NO,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C128753,30.0,30 to 34,MALE,,,2020-12-08,,,RECOVERED,,NCR,NCR,CITY OF PARAÑAQUE,PH137604000,,,RECOVERED,NO,,,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C108374,24.0,20 to 24,MALE,2020-07-22,2020-07-24,2020-08-07,,,RECOVERED,,NCR,NCR,CITY OF MANILA,PH133905000,,,RECOVERED,NO,,,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C540214,36.0,35 to 39,MALE,,,2020-08-21,,2020-08-27,RECOVERED,,NCR,NCR,CITY OF LAS PIÑAS,PH137601000,,,RECOVERED,NO,,,
+C261854,33.0,30 to 34,FEMALE,2020-07-11,2020-07-12,2020-07-16,,,RECOVERED,,NCR,NCR,,,,,RECOVERED,NO,,NO,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C136325,70.0,70 to 74,FEMALE,2020-07-01,2020-07-03,2020-07-06,,,RECOVERED,,,,,,,,RECOVERED,NO,,NO,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C819609,39.0,35 to 39,FEMALE,2020-07-14,2020-07-16,2020-07-19,,,,NO,NCR,NCR,,,,,CRITICAL,NO,2020-07-05,NO,
+C730702,42.0,40 to 44,MALE,2020-07-15,2020-07-17,2020-07-20,,,RECOVERED,,NCR,NCR,,,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C655214,32.0,30 to 34,FEMALE,,,2020-10-11,,2020-10-27,RECOVERED,,ROF,,,,,,RECOVERED,NO,,NO,
+C170522,30.0,30 to 34,MALE,,,2020-09-26,,2020-10-14,RECOVERED,NO,CAR,BENGUET,BAGUIO CITY,PH141102000,,,RECOVERED,NO,,,Age or Birthdate is Invalid
+C780924,24.0,20 to 24,MALE,2020-07-01,2020-07-02,2020-07-05,,2020-07-29,RECOVERED,,Region VII: Central Visayas,,,,,,RECOVERED,NO,2020-07-01,,
+C236515,55.0,55 to 59,FEMALE,2020-07-14,2020-07-14,2020-07-19,,2020-03-09,RECOVERED,,NCR,,,,,,RECOVERED,NO,,NO,
+C653702,46.0,45 to 49,FEMALE,2020-07-03,2020-07-09,2020-07-15,,,RECOVERED,,NCR,NCR,,,,,RECOVERED,NO,2020-07-01,NO,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C376994,45.0,45 to 49,MALE,,,2020-09-30,,2020-10-11,RECOVERED,YES,ROF,,,,,,RECOVERED,NO,2020-09-26,,
+C393553,35.0,35 to 39,MALE,,,2020-09-02,,,RECOVERED,,Region IV-A: CALABARZON,LAGUNA,CITY OF CALAMBA,PH043405000,,,RECOVERED,NO,,,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C525386,25.0,25 to 29,MALE,2020-08-11,2020-08-16,2020-08-21,,,RECOVERED,,NCR,NCR,CITY OF MANILA,PH133901000,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C281495,,,FEMALE,2020-07-16,2020-07-20,2020-08-02,,,RECOVERED,,NCR,NCR,CITY OF MAKATI,PH137602000,,,RECOVERED,NO,,NO,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C877041,33.0,30 to 34,MALE,2020-07-09,2020-07-11,2020-07-16,,,RECOVERED,,NCR,NCR,,,,,RECOVERED,NO,2020-07-09,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C456746,21.0,20 to 24,FEMALE,2020-07-24,2020-07-30,2020-08-02,,,RECOVERED,,NCR,NCR,CITY OF MANILA,PH133901000,,,RECOVERED,NO,,NO,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C470709,34.0,30 to 34,MALE,,,2020-12-31,,,RECOVERED,,NCR,NCR,CITY OF MANILA,PH133906000,,,RECOVERED,NO,,,"Removal Type is ""Recovered"", but no Recovered Date is recorded
+Health Status is ""Recovered"", but no Date Recovered is recorded"
+C832891,37.0,35 to 39,MALE,,,2020-11-05,,,RECOVERED,YES,ROF,,,,,,RECOVERED,NO,,,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
+C173682,28.0,25 to 29,FEMALE,2020-07-21,2020-07-26,2020-07-31,,,RECOVERED,,Region IV-A: CALABARZON,LAGUNA,CITY OF BIÑAN,PH043403000,,,RECOVERED,NO,,NO,"Health Status is ""Recovered"", but no Date Recovered is recorded
+Removal Type is ""Recovered"", but no Recovered Date is recorded"
